@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Disallow: /#/admin-upload
+
+Sitemap: https://nexfrontier.my/sitemap.xml

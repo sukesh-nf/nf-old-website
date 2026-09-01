@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "f=$(jq -r '.tool_input.file_path // .tool_response.filePath'); echo \"$f\" | grep -qE 'src/.*\\.(tsx|ts)$' && grep -Pn '\\xe2\\x80\\x94' \"$f\" && echo 'WARNING: em dash found - please replace with a regular hyphen' || true",
+            "statusMessage": "Checking for em dashes..."
+          }
+        ]
+      }
+    ]
+  }
+}

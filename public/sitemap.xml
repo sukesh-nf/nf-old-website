@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Home -->
+  <url>
+    <loc>https://nexfrontierlogic.nz/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Knowledge Centre -->
+  <url>
+    <loc>https://nexfrontierlogic.nz/#/faq</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Knowledge Articles -->
+  <url><loc>https://nexfrontierlogic.nz/#/knowledge/why-are-good-businesses-becoming-invisible</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nexfrontierlogic.nz/#/knowledge/what-prevents-ai-from-recommending-my-business</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nexfrontierlogic.nz/#/knowledge/how-do-ai-systems-decide-which-businesses-to-recommend</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nexfrontierlogic.nz/#/knowledge/what-is-operational-readiness</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://nexfrontierlogic.nz/#/knowledge/how-do-i-know-if-my-business-is-operationally-ready</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nexfrontierlogic.nz/#/knowledge/can-operational-readiness-become-a-competitive-advantage</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nexfrontierlogic.nz/#/knowledge/why-are-customers-dropping-off</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nexfrontierlogic.nz/#/knowledge/why-do-businesses-lose-customers-without-realising-it</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nexfrontierlogic.nz/#/knowledge/how-can-i-identify-operational-bottlenecks</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nexfrontierlogic.nz/#/knowledge/should-i-automate-before-fixing-my-operations</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nexfrontierlogic.nz/#/knowledge/how-do-i-prepare-my-business-for-ai-adoption</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nexfrontierlogic.nz/#/knowledge/how-do-i-measure-customer-trust-operationally</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nexfrontierlogic.nz/#/knowledge/what-operational-evidence-should-executives-measure</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nexfrontierlogic.nz/#/knowledge/why-dont-traditional-kpis-tell-the-whole-story</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nexfrontierlogic.nz/#/knowledge/why-are-ai-mediated-markets-changing-competition</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nexfrontierlogic.nz/#/knowledge/what-is-quiet-loss</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nexfrontierlogic.nz/#/knowledge/can-operational-evidence-become-a-strategic-asset</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nexfrontierlogic.nz/#/knowledge/why-is-customer-intent-more-valuable-than-data</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nexfrontierlogic.nz/#/knowledge/what-operational-signals-matter-most</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nexfrontierlogic.nz/#/knowledge/how-do-operational-habits-influence-trust</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nexfrontierlogic.nz/#/knowledge/what-makes-a-business-ai-ready</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nexfrontierlogic.nz/#/knowledge/why-does-consistency-matter-more-than-speed</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nexfrontierlogic.nz/#/knowledge/what-is-operational-confidence</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nexfrontierlogic.nz/#/knowledge/why-is-operational-readiness-the-next-advantage</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nexfrontierlogic.nz/#/knowledge/what-is-nexfrontier</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Reading the Shift: Analysis sub-pages -->
+  <url>
+    <loc>https://nexfrontierlogic.nz/#/reading-the-shift</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nexfrontierlogic.nz/#/data-readiness-index</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nexfrontierlogic.nz/#/agentic-ai-cx-frontline</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Product sub-pages -->
+  <url>
+    <loc>https://nexfrontierlogic.nz/#/case-example</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nexfrontierlogic.nz/#/exemplar-videos</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog posts: Global -->
+  <url>
+    <loc>https://nexfrontierlogic.nz/#/blog/ai-isnt-creating-the-next-management-challenge</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nexfrontierlogic.nz/#/blog/gartner-bq-2q26-ai-roi-operational-readiness</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nexfrontierlogic.nz/#/blog/agentic-ai-is-not-a-feature</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nexfrontierlogic.nz/#/blog/the-quiet-loss-most-businesses-miss</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nexfrontierlogic.nz/#/blog/why-data-readiness-precedes-ai-readiness</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nexfrontierlogic.nz/#/blog/mistaking-technology-investment-for-operational-readiness</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nexfrontierlogic.nz/#/blog/mckinsey-2025-sustainable-inclusive-growth-capability-challenge</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nexfrontierlogic.nz/#/blog/feedback-doesnt-create-learning-evidence-does</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nexfrontierlogic.nz/#/blog/cx-frontline-the-new-competitive-edge</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Blog posts: Malaysia -->
+  <url>
+    <loc>https://nexfrontierlogic.nz/#/blog/malaysia-ai-adoption-gap</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nexfrontierlogic.nz/#/blog/sme-digitalisation-malaysia-beyond-grants</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nexfrontierlogic.nz/#/blog/malaysia-cx-frontline-readiness</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Blog posts: New Zealand -->
+  <url>
+    <loc>https://nexfrontierlogic.nz/#/blog/nz-australia-ai-stress-test</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nexfrontierlogic.nz/#/blog/nz-australia-ai-era-cautiously</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nexfrontierlogic.nz/#/blog/new-zealand-agentic-ai-opportunity</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>

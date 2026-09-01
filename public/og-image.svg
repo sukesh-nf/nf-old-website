@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0a0f1a"/>
+  <!-- Subtle gradient overlay for depth -->
+  <defs>
+    <radialGradient id="bg-glow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#0d1a2e" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#050a12" stop-opacity="1"/>
+    </radialGradient>
+    <linearGradient id="cyan-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg-glow)"/>
+  <!-- Subtle top accent line -->
+  <rect x="0" y="0" width="1200" height="3" fill="url(#cyan-accent)"/>
+  <!-- Wordmark: Nex (white) + Frontier (cyan) -->
+  <!-- Using a system sans-serif that closely matches the brand font -->
+  <text
+    x="600"
+    y="345"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif"
+    font-size="148"
+    font-weight="700"
+    letter-spacing="-3"
+  >
+    <tspan fill="#ffffff">Nex</tspan><tspan fill="#22d3ee">Frontier</tspan>
+  </text>
+  <!-- Tagline -->
+  <text
+    x="600"
+    y="440"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif"
+    font-size="22"
+    font-weight="400"
+    fill="#64748b"
+    letter-spacing="3"
+  >OPERATIONAL RELIABILITY INFRASTRUCTURE FOR AI</text>
+  <!-- Bottom accent line -->
+  <rect x="0" y="627" width="1200" height="3" fill="url(#cyan-accent)"/>
+</svg>

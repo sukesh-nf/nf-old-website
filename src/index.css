@@ -1,0 +1,186 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Urbanist', sans-serif;
+  }
+}
+
+@layer utilities {
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r;
+  }
+
+  .glow-cyan {
+    box-shadow: 0 0 20px rgba(24, 213, 255, 0.3);
+  }
+
+  .glow-cyan-hover:hover {
+    box-shadow: 0 0 30px rgba(24, 213, 255, 0.5);
+  }
+
+  .section-divider {
+    @apply relative py-14 md:py-24 lg:py-32;
+  }
+
+  .container-wide {
+    @apply px-4 sm:px-6 md:px-12 lg:px-20 max-w-7xl mx-auto;
+  }
+}
+
+.faq-answer p {
+  font-family: 'Inter', sans-serif;
+  color: #CBD5E1;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  margin-bottom: 0.75rem;
+}
+
+.faq-answer p:last-child {
+  margin-bottom: 0;
+}
+
+.faq-answer ul {
+  list-style: none;
+  padding-left: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.faq-answer ul li {
+  font-family: 'Inter', sans-serif;
+  color: #CBD5E1;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  position: relative;
+  padding-left: 1.25rem;
+}
+
+.faq-answer ul li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.65em;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: rgba(24, 213, 255, 0.6);
+}
+
+.faq-answer blockquote {
+  border-left: 2px solid rgba(24, 213, 255, 0.5);
+  padding-left: 1rem;
+  margin: 0.75rem 0;
+  color: #E2E8F0;
+  font-size: 0.875rem;
+  font-style: italic;
+  line-height: 1.75;
+  background: rgba(24, 213, 255, 0.03);
+  border-radius: 0 4px 4px 0;
+}
+
+.prose-blog h3 {
+  font-family: 'Urbanist', sans-serif;
+  color: #F8FAFC;
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.prose-blog p {
+  color: #94A3B8;
+  line-height: 1.75;
+}
+
+.prose-blog em {
+  color: #F8FAFC;
+  font-style: italic;
+}
+
+.prose-blog table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.875rem;
+}
+
+.prose-blog table th {
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 700;
+  color: #F8FAFC;
+  text-align: left;
+  padding: 0.625rem 1rem;
+  border-bottom: 1px solid rgba(0, 229, 255, 0.2);
+  background: rgba(0, 229, 255, 0.05);
+}
+
+.prose-blog table td {
+  color: #94A3B8;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.prose-blog table tr:last-child td {
+  border-bottom: none;
+}
+
+.prose-blog table tr:hover td {
+  background: rgba(0, 229, 255, 0.03);
+  color: #CBD5E1;
+}
+
+/* Small text reads brighter — nex-grey (#94A3B8 = 148 163 184) lifted to
+   #CBD5E1 (203 213 225) at text-xs and text-sm sizes. Each opacity variant
+   is scaled proportionally from the brighter base. */
+.text-xs.text-nex-grey,
+.text-sm.text-nex-grey { color: #cbd5e1 !important; }
+
+.text-xs.text-nex-grey\/40,
+.text-sm.text-nex-grey\/40 { color: #cbd5e166 !important; }
+
+.text-xs.text-nex-grey\/50,
+.text-sm.text-nex-grey\/50 { color: #cbd5e180 !important; }
+
+.text-xs.text-nex-grey\/60,
+.text-sm.text-nex-grey\/60 { color: #cbd5e199 !important; }
+
+.text-xs.text-nex-grey\/70,
+.text-sm.text-nex-grey\/70 { color: #cbd5e1b3 !important; }
+
+.text-xs.text-nex-grey\/80,
+.text-sm.text-nex-grey\/80 { color: #cbd5e1cc !important; }
+
+.text-xs.text-nex-grey\/85,
+.text-sm.text-nex-grey\/85 { color: #cbd5e1d9 !important; }
+
+.text-xs.text-nex-grey\/90,
+.text-sm.text-nex-grey\/90 { color: #cbd5e1e6 !important; }
+
+html {
+  scroll-behavior: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Force dark theme on all form controls — prevents OS/browser white override */
+input,
+textarea,
+select {
+  color-scheme: dark;
+}
+
+
+body {
+  background: linear-gradient(135deg, #020817 0%, #030B1A 50%, #071225 100%);
+  color: #F8FAFC;
+  overflow-x: clip;
+  touch-action: pan-y;
+  overscroll-behavior-y: none;
+}
